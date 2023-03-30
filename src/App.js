@@ -13,6 +13,9 @@ function App() {
           < div botton ='About'>About</div>
           < div botton ='Contact'>Contact</div>
         </div>
+        <div className="body">
+          new body
+        </div>
       </div>
 
     </div>
