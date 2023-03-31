@@ -1,21 +1,21 @@
-import { useRef } from "react";
+import { useNavigate } from "react-router-dom";
 
-export default function Start({ setUsername }) {
-  const inputRef = useRef();
+export default function Start({ username, setUsername }) {
+  const navigate = useNavigate();
 
   const handleClick = () => {
-    inputRef.current.value && setUsername(inputRef.current.value);
+    navigate("/home")
   };
 
   return (
     <div className="start">
       <input
         className="startInput"
-        placeholder="enter your name"
-        ref={inputRef}
+        placeholder="enter your user name"
+        onChange={(e)=>{setUsername(e.target.value);}}
       />
       <button className="startButton" onClick={handleClick}>
-        Start
+        Enter
       </button>
     </div>
   );
