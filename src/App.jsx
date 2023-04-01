@@ -12,7 +12,7 @@ function App() {
     
     <div className="App">
       <div className="nav">
-        hello
+        helllo
       </div>
     </div>
   );
