@@ -1,23 +1,4 @@
-
 .nav{
-  margin: auto;
-  height: 10vh;
-  display: flex;
-  justify-content: center;
-  background-color: aqua
-}
-.logo{
-  width: 50%;
-  /* align-items: center; */
-}
-.rightnav{
-  display: flex;
-  gap: 10vb;
-}
-.Home{
-  width: 50%;
-  height: 10vh;
-  margin: auto;
-  background-color: azure;
-  
+    
+    text-align: center;
 }
